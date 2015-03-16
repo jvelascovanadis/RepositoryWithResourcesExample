@@ -1,0 +1,2 @@
+# RepositoryWithResourcesExample
+RepositoryWithResourcesExample
