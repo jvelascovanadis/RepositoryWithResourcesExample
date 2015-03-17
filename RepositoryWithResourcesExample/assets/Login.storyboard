@@ -32,7 +32,7 @@
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ifN-FV-Tuy" userLabel="EmailView">
                                                 <rect key="frame" x="0.0" y="0.0" width="280" height="40"/>
                                                 <subviews>
-                                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Email" translatesAutoresizingMaskIntoConstraints="NO" id="0hY-PA-JSG">
+                                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="email.png" translatesAutoresizingMaskIntoConstraints="NO" id="0hY-PA-JSG">
                                                         <rect key="frame" x="20" y="7" width="26" height="26"/>
                                                         <constraints>
                                                             <constraint firstAttribute="width" constant="26" id="9pv-IH-50F"/>
@@ -79,7 +79,7 @@
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="bKU-Je-K77" userLabel="PasswordView">
                                                 <rect key="frame" x="0.0" y="42" width="280" height="40"/>
                                                 <subviews>
-                                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Password" translatesAutoresizingMaskIntoConstraints="NO" id="V3B-A6-Zfo">
+                                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="password.png" translatesAutoresizingMaskIntoConstraints="NO" id="V3B-A6-Zfo">
                                                         <rect key="frame" x="20" y="7" width="26" height="26"/>
                                                         <constraints>
                                                             <constraint firstAttribute="width" constant="26" id="NjB-sB-4Zi"/>
@@ -278,7 +278,7 @@
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="aXr-YS-2mg" userLabel="EmailView">
                                                 <rect key="frame" x="0.0" y="0.0" width="280" height="40"/>
                                                 <subviews>
-                                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Email" translatesAutoresizingMaskIntoConstraints="NO" id="c9n-LK-Vob">
+                                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="email.png" translatesAutoresizingMaskIntoConstraints="NO" id="c9n-LK-Vob">
                                                         <rect key="frame" x="20" y="7" width="26" height="26"/>
                                                         <constraints>
                                                             <constraint firstAttribute="height" constant="26" id="6RD-uO-lbB"/>
@@ -325,7 +325,7 @@
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Iyf-ZT-GBf" userLabel="PasswordView">
                                                 <rect key="frame" x="0.0" y="41" width="280" height="40"/>
                                                 <subviews>
-                                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Password" translatesAutoresizingMaskIntoConstraints="NO" id="k3f-x7-613">
+                                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="password.png" translatesAutoresizingMaskIntoConstraints="NO" id="k3f-x7-613">
                                                         <rect key="frame" x="20" y="7" width="26" height="26"/>
                                                         <constraints>
                                                             <constraint firstAttribute="width" constant="26" id="XLS-SN-dHc"/>
@@ -372,7 +372,7 @@
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="wbK-YS-k1A" userLabel="ReTypePasswordView">
                                                 <rect key="frame" x="0.0" y="82" width="280" height="40"/>
                                                 <subviews>
-                                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Password" translatesAutoresizingMaskIntoConstraints="NO" id="y8U-DU-XNd">
+                                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="password.png" translatesAutoresizingMaskIntoConstraints="NO" id="y8U-DU-XNd">
                                                         <rect key="frame" x="20" y="7" width="26" height="26"/>
                                                         <constraints>
                                                             <constraint firstAttribute="width" constant="26" id="LxS-Ow-6Cg"/>
@@ -466,7 +466,7 @@
                                                             <constraint firstAttribute="height" constant="26" id="cFI-iS-gCP"/>
                                                         </constraints>
                                                         <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="13"/>
-                                                        <state key="normal" backgroundImage="Checkbox_0">
+                                                        <state key="normal" backgroundImage="checkbox_a.png">
                                                             <color key="titleColor" red="0.4039215686" green="0.57254901960000004" blue="0.7003592609" alpha="1" colorSpace="calibratedRGB"/>
                                                             <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                                         </state>
@@ -518,7 +518,7 @@
                                             <constraint firstAttribute="height" constant="22" id="fNS-Sm-sMx"/>
                                         </constraints>
                                         <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="12"/>
-                                        <state key="normal" title="leer condiciones de uso" image="NavBarSearch">
+                                        <state key="normal" title="leer condiciones de uso" image="conditions_view.png">
                                             <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
                                         <connections>
@@ -800,10 +800,10 @@
         </scene>
     </scenes>
     <resources>
-        <image name="Checkbox_0" width="30" height="30"/>
-        <image name="Email" width="26" height="26"/>
-        <image name="NavBarSearch" width="22" height="22"/>
-        <image name="Password" width="26" height="26"/>
+        <image name="checkbox_a.png" width="30" height="30"/>
+        <image name="conditions_view.png" width="26" height="26"/>
+        <image name="email.png" width="26" height="26"/>
+        <image name="password.png" width="26" height="26"/>
     </resources>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedStatusBarMetrics key="statusBar"/>
