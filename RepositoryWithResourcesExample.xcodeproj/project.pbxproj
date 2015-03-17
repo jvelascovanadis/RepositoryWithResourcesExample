@@ -10,7 +10,6 @@
 		F15B6A851AB75D3000A0BD61 /* RepositoryWithResourcesExample.h in Headers */ = {isa = PBXBuildFile; fileRef = F15B6A841AB75D3000A0BD61 /* RepositoryWithResourcesExample.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F15B6A8B1AB75D3100A0BD61 /* RepositoryWithResourcesExample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F15B6A7F1AB75D3000A0BD61 /* RepositoryWithResourcesExample.framework */; };
 		F15B6A921AB75D3100A0BD61 /* RepositoryWithResourcesExampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F15B6A911AB75D3100A0BD61 /* RepositoryWithResourcesExampleTests.m */; };
-		F15B6A9D1AB75E2900A0BD61 /* Test.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F15B6A9C1AB75E2900A0BD61 /* Test.storyboard */; };
 		F15B6A9F1AB75E4100A0BD61 /* TestView.xib in Resources */ = {isa = PBXBuildFile; fileRef = F15B6A9E1AB75E4100A0BD61 /* TestView.xib */; };
 		F15B6AA31AB75ED100A0BD61 /* TestClass.h in Headers */ = {isa = PBXBuildFile; fileRef = F15B6AA11AB75ED100A0BD61 /* TestClass.h */; };
 		F15B6AA41AB75ED100A0BD61 /* TestClass.m in Sources */ = {isa = PBXBuildFile; fileRef = F15B6AA21AB75ED100A0BD61 /* TestClass.m */; };
@@ -22,13 +21,13 @@
 		F193F2C21AB8366E00ADCE27 /* RememberPasswordVC.m in Sources */ = {isa = PBXBuildFile; fileRef = F193F2BA1AB8366E00ADCE27 /* RememberPasswordVC.m */; };
 		F193F2C31AB8366E00ADCE27 /* TermsVC.h in Headers */ = {isa = PBXBuildFile; fileRef = F193F2BB1AB8366E00ADCE27 /* TermsVC.h */; };
 		F193F2C41AB8366E00ADCE27 /* TermsVC.m in Sources */ = {isa = PBXBuildFile; fileRef = F193F2BC1AB8366E00ADCE27 /* TermsVC.m */; };
-		F193F2C61AB8367A00ADCE27 /* Login.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F193F2C51AB8367A00ADCE27 /* Login.storyboard */; };
 		F193F2C91AB8390300ADCE27 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = F193F2CB1AB8390300ADCE27 /* Localizable.strings */; };
 		F193F2D21AB8468900ADCE27 /* checkbox_a@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F193F2CD1AB8468900ADCE27 /* checkbox_a@2x.png */; };
 		F193F2D31AB8468900ADCE27 /* checkbox_b@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F193F2CE1AB8468900ADCE27 /* checkbox_b@2x.png */; };
 		F193F2D41AB8468900ADCE27 /* conditions_view@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F193F2CF1AB8468900ADCE27 /* conditions_view@2x.png */; };
 		F193F2D51AB8468900ADCE27 /* email@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F193F2D01AB8468900ADCE27 /* email@2x.png */; };
 		F193F2D61AB8468900ADCE27 /* password@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F193F2D11AB8468900ADCE27 /* password@2x.png */; };
+		F193F2E01AB852A200ADCE27 /* Login.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F193F2DF1AB852A200ADCE27 /* Login.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,7 +47,6 @@
 		F15B6A8A1AB75D3100A0BD61 /* RepositoryWithResourcesExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RepositoryWithResourcesExampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F15B6A901AB75D3100A0BD61 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F15B6A911AB75D3100A0BD61 /* RepositoryWithResourcesExampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RepositoryWithResourcesExampleTests.m; sourceTree = "<group>"; };
-		F15B6A9C1AB75E2900A0BD61 /* Test.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Test.storyboard; path = assets/Test.storyboard; sourceTree = "<group>"; };
 		F15B6A9E1AB75E4100A0BD61 /* TestView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = TestView.xib; path = assets/TestView.xib; sourceTree = "<group>"; };
 		F15B6AA11AB75ED100A0BD61 /* TestClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TestClass.h; path = classes/TestClass.h; sourceTree = "<group>"; };
 		F15B6AA21AB75ED100A0BD61 /* TestClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TestClass.m; path = classes/TestClass.m; sourceTree = "<group>"; };
@@ -60,7 +58,6 @@
 		F193F2BA1AB8366E00ADCE27 /* RememberPasswordVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RememberPasswordVC.m; path = classes/RememberPasswordVC.m; sourceTree = "<group>"; };
 		F193F2BB1AB8366E00ADCE27 /* TermsVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TermsVC.h; path = classes/TermsVC.h; sourceTree = "<group>"; };
 		F193F2BC1AB8366E00ADCE27 /* TermsVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TermsVC.m; path = classes/TermsVC.m; sourceTree = "<group>"; };
-		F193F2C51AB8367A00ADCE27 /* Login.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Login.storyboard; path = assets/Login.storyboard; sourceTree = "<group>"; };
 		F193F2CA1AB8390300ADCE27 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
 		F193F2CD1AB8468900ADCE27 /* checkbox_a@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "checkbox_a@2x.png"; path = "assets/checkbox_a@2x.png"; sourceTree = "<group>"; };
 		F193F2CE1AB8468900ADCE27 /* checkbox_b@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "checkbox_b@2x.png"; path = "assets/checkbox_b@2x.png"; sourceTree = "<group>"; };
@@ -68,6 +65,7 @@
 		F193F2D01AB8468900ADCE27 /* email@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "email@2x.png"; path = "assets/email@2x.png"; sourceTree = "<group>"; };
 		F193F2D11AB8468900ADCE27 /* password@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "password@2x.png"; path = "assets/password@2x.png"; sourceTree = "<group>"; };
 		F193F2D71AB8478500ADCE27 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/Localizable.strings; sourceTree = "<group>"; };
+		F193F2DF1AB852A200ADCE27 /* Login.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Login.storyboard; path = assets/Login.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -146,13 +144,12 @@
 		F15B6A9B1AB75DEB00A0BD61 /* assets */ = {
 			isa = PBXGroup;
 			children = (
+				F193F2DF1AB852A200ADCE27 /* Login.storyboard */,
 				F193F2CD1AB8468900ADCE27 /* checkbox_a@2x.png */,
 				F193F2CE1AB8468900ADCE27 /* checkbox_b@2x.png */,
 				F193F2CF1AB8468900ADCE27 /* conditions_view@2x.png */,
 				F193F2D01AB8468900ADCE27 /* email@2x.png */,
 				F193F2D11AB8468900ADCE27 /* password@2x.png */,
-				F193F2C51AB8367A00ADCE27 /* Login.storyboard */,
-				F15B6A9C1AB75E2900A0BD61 /* Test.storyboard */,
 				F15B6A9E1AB75E4100A0BD61 /* TestView.xib */,
 				F193F2CB1AB8390300ADCE27 /* Localizable.strings */,
 			);
@@ -277,10 +274,9 @@
 				F193F2D21AB8468900ADCE27 /* checkbox_a@2x.png in Resources */,
 				F15B6A9F1AB75E4100A0BD61 /* TestView.xib in Resources */,
 				F193F2C91AB8390300ADCE27 /* Localizable.strings in Resources */,
-				F15B6A9D1AB75E2900A0BD61 /* Test.storyboard in Resources */,
 				F193F2D61AB8468900ADCE27 /* password@2x.png in Resources */,
 				F193F2D41AB8468900ADCE27 /* conditions_view@2x.png in Resources */,
-				F193F2C61AB8367A00ADCE27 /* Login.storyboard in Resources */,
+				F193F2E01AB852A200ADCE27 /* Login.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
