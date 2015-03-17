@@ -27,7 +27,7 @@
 		F193F2D41AB8468900ADCE27 /* conditions_view@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F193F2CF1AB8468900ADCE27 /* conditions_view@2x.png */; };
 		F193F2D51AB8468900ADCE27 /* email@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F193F2D01AB8468900ADCE27 /* email@2x.png */; };
 		F193F2D61AB8468900ADCE27 /* password@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F193F2D11AB8468900ADCE27 /* password@2x.png */; };
-		F193F2E01AB852A200ADCE27 /* Login.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F193F2DF1AB852A200ADCE27 /* Login.storyboard */; };
+		F193F2EC1AB8884E00ADCE27 /* Login.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F193F2EE1AB8884E00ADCE27 /* Login.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -65,7 +65,9 @@
 		F193F2D01AB8468900ADCE27 /* email@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "email@2x.png"; path = "assets/email@2x.png"; sourceTree = "<group>"; };
 		F193F2D11AB8468900ADCE27 /* password@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "password@2x.png"; path = "assets/password@2x.png"; sourceTree = "<group>"; };
 		F193F2D71AB8478500ADCE27 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/Localizable.strings; sourceTree = "<group>"; };
-		F193F2DF1AB852A200ADCE27 /* Login.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Login.storyboard; path = assets/Login.storyboard; sourceTree = "<group>"; };
+		F193F2ED1AB8884E00ADCE27 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Login.storyboard; sourceTree = "<group>"; };
+		F193F2F01AB8885100ADCE27 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Login.strings; sourceTree = "<group>"; };
+		F193F2F21AB8885200ADCE27 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/Login.strings; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -144,7 +146,7 @@
 		F15B6A9B1AB75DEB00A0BD61 /* assets */ = {
 			isa = PBXGroup;
 			children = (
-				F193F2DF1AB852A200ADCE27 /* Login.storyboard */,
+				F193F2EE1AB8884E00ADCE27 /* Login.storyboard */,
 				F193F2CD1AB8468900ADCE27 /* checkbox_a@2x.png */,
 				F193F2CE1AB8468900ADCE27 /* checkbox_b@2x.png */,
 				F193F2CF1AB8468900ADCE27 /* conditions_view@2x.png */,
@@ -252,6 +254,7 @@
 			knownRegions = (
 				en,
 				es,
+				Base,
 			);
 			mainGroup = F15B6A751AB75D3000A0BD61;
 			productRefGroup = F15B6A801AB75D3000A0BD61 /* Products */;
@@ -276,7 +279,7 @@
 				F193F2C91AB8390300ADCE27 /* Localizable.strings in Resources */,
 				F193F2D61AB8468900ADCE27 /* password@2x.png in Resources */,
 				F193F2D41AB8468900ADCE27 /* conditions_view@2x.png in Resources */,
-				F193F2E01AB852A200ADCE27 /* Login.storyboard in Resources */,
+				F193F2EC1AB8884E00ADCE27 /* Login.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -328,6 +331,17 @@
 				F193F2D71AB8478500ADCE27 /* es */,
 			);
 			name = Localizable.strings;
+			path = assets;
+			sourceTree = "<group>";
+		};
+		F193F2EE1AB8884E00ADCE27 /* Login.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F193F2ED1AB8884E00ADCE27 /* Base */,
+				F193F2F01AB8885100ADCE27 /* en */,
+				F193F2F21AB8885200ADCE27 /* es */,
+			);
+			name = Login.storyboard;
 			path = assets;
 			sourceTree = "<group>";
 		};
