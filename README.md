@@ -21,3 +21,25 @@ A continuación, en TARGETS -> TestPods -> General -> App Icons and Launch Image
 Solución BUENA:
 
 Investigar como funciona bien lo del LaunchScreen.xib :-)
+
+
+LOCALIZACIÓN DE POD:
+--------------------
+
+Hemos incluido también la posibilidad de internacionalizar los textos de interfaz de usuario de los componentes. Para ello, tenemos que tener en cuenta:
+
+1.- Los mensajes de texto se incluyen de la siguiente manera:
+
+NSLocalizedStringFromTableInBundle(@"LOGIN_INFO", @"Localizable", [[self class] frameworkBundle], @"")  
+
+
+2.- En los proyectos donde se use este Pod, deberán también estar configurados para los idiomas "Localizations" inglés y español.
+
+3.- Para internacionalizar los XIb y storyboards, a tener en cuenta de marcar "Use Base Internationalization" porque es la manera de poder usar la opción de "Localizable strings" a la hora de internacionalizar los elementos visuales.
+
+
+
+
+
+
+
