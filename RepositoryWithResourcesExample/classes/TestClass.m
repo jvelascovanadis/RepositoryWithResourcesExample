@@ -7,11 +7,16 @@
 //
 
 #import "TestClass.h"
+#import <UIKit/UIKit.h>
 
 @implementation TestClass
 
 + (void) sayHello
 {
     NSLog(@"Hi to the world!");
+    
+    NSDictionary* userInfo = @{@"color":[UIColor orangeColor]};
+    
+    [[NSNotificationCenter defaultCenter] postNotificationName:@"TestNotification" object:self userInfo:userInfo];
 }
 @end
