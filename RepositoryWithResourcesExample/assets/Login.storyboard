@@ -16,7 +16,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="3Zg-J6-37l">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="LogoStart" translatesAutoresizingMaskIntoConstraints="NO" id="3Zg-J6-37l">
                                 <rect key="frame" x="35" y="40" width="250" height="60"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="60" id="cT3-di-KMx"/>
@@ -231,7 +231,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="tb8-qj-2nM" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1119" y="36"/>
+            <point key="canvasLocation" x="1191" y="36"/>
         </scene>
         <!--Registro-->
         <scene sceneID="YCl-i9-Bel">
@@ -245,7 +245,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="FdO-70-GA7">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="LogoStart" translatesAutoresizingMaskIntoConstraints="NO" id="FdO-70-GA7">
                                 <rect key="frame" x="35" y="84" width="250" height="60"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="250" id="bbh-cR-Kwq"/>
@@ -565,7 +565,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="4NQ-DX-Pdd" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1802" y="36"/>
+            <point key="canvasLocation" x="1754" y="36"/>
         </scene>
         <!--Cláusulas legales-->
         <scene sceneID="POX-PF-lEX">
@@ -579,7 +579,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Blv-R1-GBN">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="LogoStart" translatesAutoresizingMaskIntoConstraints="NO" id="Blv-R1-GBN">
                                 <rect key="frame" x="35" y="82" width="250" height="60"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="60" id="Rso-7c-Jen"/>
@@ -759,7 +759,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="vlD-85-6yG" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2355" y="-615"/>
+            <point key="canvasLocation" x="2218" y="-591"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="mU1-yF-ITT">
@@ -777,7 +777,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="1cp-f3-sCP" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1891" y="-615"/>
+            <point key="canvasLocation" x="1754" y="-591"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="rcS-x4-uyE">
@@ -800,6 +800,7 @@
         </scene>
     </scenes>
     <resources>
+        <image name="LogoStart" width="290" height="68"/>
         <image name="checkbox_a.png" width="30" height="30"/>
         <image name="conditions_view.png" width="26" height="26"/>
         <image name="email.png" width="26" height="26"/>
