@@ -65,10 +65,10 @@
     
     if (!isChecked ){
         isChecked = TRUE;
-        [self.checkButton setImage:[UIImage imageNamed:@"Checkbox_1"] forState:UIControlStateNormal];
+        [self.checkButton setImage:[UIImage imageNamed:@"checkbox_a"] forState:UIControlStateNormal];
     }else{
         isChecked = FALSE;
-        [self.checkButton setImage:[UIImage imageNamed:@"Checkbox_0"] forState:UIControlStateNormal];
+        [self.checkButton setImage:[UIImage imageNamed:@"checkbox_b"] forState:UIControlStateNormal];
     }
 }
 
