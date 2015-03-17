@@ -67,6 +67,7 @@
 		F193F2CF1AB8468900ADCE27 /* conditions_view@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "conditions_view@2x.png"; path = "assets/conditions_view@2x.png"; sourceTree = "<group>"; };
 		F193F2D01AB8468900ADCE27 /* email@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "email@2x.png"; path = "assets/email@2x.png"; sourceTree = "<group>"; };
 		F193F2D11AB8468900ADCE27 /* password@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "password@2x.png"; path = "assets/password@2x.png"; sourceTree = "<group>"; };
+		F193F2D71AB8478500ADCE27 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/Localizable.strings; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -253,6 +254,7 @@
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				es,
 			);
 			mainGroup = F15B6A751AB75D3000A0BD61;
 			productRefGroup = F15B6A801AB75D3000A0BD61 /* Products */;
@@ -327,6 +329,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				F193F2CA1AB8390300ADCE27 /* en */,
+				F193F2D71AB8478500ADCE27 /* es */,
 			);
 			name = Localizable.strings;
 			path = assets;
