@@ -14,6 +14,16 @@
 		F15B6A9F1AB75E4100A0BD61 /* TestView.xib in Resources */ = {isa = PBXBuildFile; fileRef = F15B6A9E1AB75E4100A0BD61 /* TestView.xib */; };
 		F15B6AA31AB75ED100A0BD61 /* TestClass.h in Headers */ = {isa = PBXBuildFile; fileRef = F15B6AA11AB75ED100A0BD61 /* TestClass.h */; };
 		F15B6AA41AB75ED100A0BD61 /* TestClass.m in Sources */ = {isa = PBXBuildFile; fileRef = F15B6AA21AB75ED100A0BD61 /* TestClass.m */; };
+		F193F2BD1AB8366E00ADCE27 /* LoginVC.h in Headers */ = {isa = PBXBuildFile; fileRef = F193F2B51AB8366E00ADCE27 /* LoginVC.h */; };
+		F193F2BE1AB8366E00ADCE27 /* LoginVC.m in Sources */ = {isa = PBXBuildFile; fileRef = F193F2B61AB8366E00ADCE27 /* LoginVC.m */; };
+		F193F2BF1AB8366E00ADCE27 /* RegisterVC.h in Headers */ = {isa = PBXBuildFile; fileRef = F193F2B71AB8366E00ADCE27 /* RegisterVC.h */; };
+		F193F2C01AB8366E00ADCE27 /* RegisterVC.m in Sources */ = {isa = PBXBuildFile; fileRef = F193F2B81AB8366E00ADCE27 /* RegisterVC.m */; };
+		F193F2C11AB8366E00ADCE27 /* RememberPasswordVC.h in Headers */ = {isa = PBXBuildFile; fileRef = F193F2B91AB8366E00ADCE27 /* RememberPasswordVC.h */; };
+		F193F2C21AB8366E00ADCE27 /* RememberPasswordVC.m in Sources */ = {isa = PBXBuildFile; fileRef = F193F2BA1AB8366E00ADCE27 /* RememberPasswordVC.m */; };
+		F193F2C31AB8366E00ADCE27 /* TermsVC.h in Headers */ = {isa = PBXBuildFile; fileRef = F193F2BB1AB8366E00ADCE27 /* TermsVC.h */; };
+		F193F2C41AB8366E00ADCE27 /* TermsVC.m in Sources */ = {isa = PBXBuildFile; fileRef = F193F2BC1AB8366E00ADCE27 /* TermsVC.m */; };
+		F193F2C61AB8367A00ADCE27 /* Login.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F193F2C51AB8367A00ADCE27 /* Login.storyboard */; };
+		F193F2C91AB8390300ADCE27 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = F193F2CB1AB8390300ADCE27 /* Localizable.strings */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,6 +47,16 @@
 		F15B6A9E1AB75E4100A0BD61 /* TestView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = TestView.xib; path = assets/TestView.xib; sourceTree = "<group>"; };
 		F15B6AA11AB75ED100A0BD61 /* TestClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TestClass.h; path = classes/TestClass.h; sourceTree = "<group>"; };
 		F15B6AA21AB75ED100A0BD61 /* TestClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TestClass.m; path = classes/TestClass.m; sourceTree = "<group>"; };
+		F193F2B51AB8366E00ADCE27 /* LoginVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LoginVC.h; path = classes/LoginVC.h; sourceTree = "<group>"; };
+		F193F2B61AB8366E00ADCE27 /* LoginVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LoginVC.m; path = classes/LoginVC.m; sourceTree = "<group>"; };
+		F193F2B71AB8366E00ADCE27 /* RegisterVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RegisterVC.h; path = classes/RegisterVC.h; sourceTree = "<group>"; };
+		F193F2B81AB8366E00ADCE27 /* RegisterVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RegisterVC.m; path = classes/RegisterVC.m; sourceTree = "<group>"; };
+		F193F2B91AB8366E00ADCE27 /* RememberPasswordVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RememberPasswordVC.h; path = classes/RememberPasswordVC.h; sourceTree = "<group>"; };
+		F193F2BA1AB8366E00ADCE27 /* RememberPasswordVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RememberPasswordVC.m; path = classes/RememberPasswordVC.m; sourceTree = "<group>"; };
+		F193F2BB1AB8366E00ADCE27 /* TermsVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TermsVC.h; path = classes/TermsVC.h; sourceTree = "<group>"; };
+		F193F2BC1AB8366E00ADCE27 /* TermsVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TermsVC.m; path = classes/TermsVC.m; sourceTree = "<group>"; };
+		F193F2C51AB8367A00ADCE27 /* Login.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Login.storyboard; path = assets/Login.storyboard; sourceTree = "<group>"; };
+		F193F2CA1AB8390300ADCE27 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,8 +135,10 @@
 		F15B6A9B1AB75DEB00A0BD61 /* assets */ = {
 			isa = PBXGroup;
 			children = (
+				F193F2C51AB8367A00ADCE27 /* Login.storyboard */,
 				F15B6A9C1AB75E2900A0BD61 /* Test.storyboard */,
 				F15B6A9E1AB75E4100A0BD61 /* TestView.xib */,
+				F193F2CB1AB8390300ADCE27 /* Localizable.strings */,
 			);
 			name = assets;
 			sourceTree = "<group>";
@@ -124,6 +146,14 @@
 		F15B6AA01AB75EA300A0BD61 /* classes */ = {
 			isa = PBXGroup;
 			children = (
+				F193F2B51AB8366E00ADCE27 /* LoginVC.h */,
+				F193F2B61AB8366E00ADCE27 /* LoginVC.m */,
+				F193F2B71AB8366E00ADCE27 /* RegisterVC.h */,
+				F193F2B81AB8366E00ADCE27 /* RegisterVC.m */,
+				F193F2B91AB8366E00ADCE27 /* RememberPasswordVC.h */,
+				F193F2BA1AB8366E00ADCE27 /* RememberPasswordVC.m */,
+				F193F2BB1AB8366E00ADCE27 /* TermsVC.h */,
+				F193F2BC1AB8366E00ADCE27 /* TermsVC.m */,
 				F15B6AA11AB75ED100A0BD61 /* TestClass.h */,
 				F15B6AA21AB75ED100A0BD61 /* TestClass.m */,
 			);
@@ -137,8 +167,12 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F193F2BF1AB8366E00ADCE27 /* RegisterVC.h in Headers */,
 				F15B6A851AB75D3000A0BD61 /* RepositoryWithResourcesExample.h in Headers */,
 				F15B6AA31AB75ED100A0BD61 /* TestClass.h in Headers */,
+				F193F2C31AB8366E00ADCE27 /* TermsVC.h in Headers */,
+				F193F2BD1AB8366E00ADCE27 /* LoginVC.h in Headers */,
+				F193F2C11AB8366E00ADCE27 /* RememberPasswordVC.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -222,7 +256,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				F15B6A9F1AB75E4100A0BD61 /* TestView.xib in Resources */,
+				F193F2C91AB8390300ADCE27 /* Localizable.strings in Resources */,
 				F15B6A9D1AB75E2900A0BD61 /* Test.storyboard in Resources */,
+				F193F2C61AB8367A00ADCE27 /* Login.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -240,6 +276,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F193F2C01AB8366E00ADCE27 /* RegisterVC.m in Sources */,
+				F193F2BE1AB8366E00ADCE27 /* LoginVC.m in Sources */,
+				F193F2C41AB8366E00ADCE27 /* TermsVC.m in Sources */,
+				F193F2C21AB8366E00ADCE27 /* RememberPasswordVC.m in Sources */,
 				F15B6AA41AB75ED100A0BD61 /* TestClass.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -261,6 +301,18 @@
 			targetProxy = F15B6A8C1AB75D3100A0BD61 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F193F2CB1AB8390300ADCE27 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F193F2CA1AB8390300ADCE27 /* en */,
+			);
+			name = Localizable.strings;
+			path = assets;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		F15B6A931AB75D3100A0BD61 /* Debug */ = {

@@ -25,6 +25,20 @@
 
 @synthesize TF_mail,TF_password,activityIndicator;
 
++ (NSBundle *)frameworkBundle {
+    
+    static NSBundle* frameworkBundle = nil;
+    static dispatch_once_t predicate;
+    dispatch_once(&predicate, ^{
+        NSString* mainBundlePath = [[NSBundle mainBundle] resourcePath];
+        NSString* frameworkBundlePath = [mainBundlePath stringByAppendingPathComponent:@"Vanadis.bundle"];
+        frameworkBundle = [NSBundle bundleWithPath:frameworkBundlePath];
+    });
+    return frameworkBundle;
+}
+
+
+
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
     self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
@@ -246,9 +260,12 @@
     password = TF_password.text;
     if ((email == nil)||(password == nil)||([email isEqualToString:@""])||([password isEqualToString:@""]))
     {
-        UIAlertView *av = [[UIAlertView alloc] initWithTitle:NSLocalizedString(@"LOGIN_INFO",nil)
+      /*  UIAlertView *av = [[UIAlertView alloc] initWithTitle:NSLocalizedString(@"LOGIN_INFO",nil)
                                                      message:[NSString stringWithFormat:NSLocalizedString(@"INFO_LOGIN_EMPTY",nil)] delegate:nil
-                                           cancelButtonTitle:NSLocalizedString(@"RESPONSE_OK",nil) otherButtonTitles:nil];
+                                           cancelButtonTitle:NSLocalizedString(@"RESPONSE_OK",nil) otherButtonTitles:nil]; */
+        
+        UIAlertView *av = [[UIAlertView alloc] initWithTitle:NSLocalizedStringFromTableInBundle(@"LOGIN_INFO", @"Localizable", [[self class] frameworkBundle], @"")                                                     message:[NSString stringWithFormat:NSLocalizedString(@"INFO_LOGIN_EMPTY",nil)] delegate:nil
+            cancelButtonTitle:NSLocalizedStringFromTableInBundle(@"RESPONSE_OK", @"Localizable", [[self class] frameworkBundle], @"") otherButtonTitles:nil];
         [av show];
         
     }else{
