@@ -1,0 +1,66 @@
+
+/* Class = "UIButton"; normalTitle = "Soy Nuevo"; ObjectID = "67L-Vf-tim"; */
+"67L-Vf-tim.normalTitle" = "Soy Nuevo";
+
+/* Class = "UIButton"; normalTitle = "ACCEDER"; ObjectID = "7U2-lS-EZc"; */
+"7U2-lS-EZc.normalTitle" = "ACCEDER";
+
+/* Class = "UIButton"; normalTitle = "leer condiciones de uso"; ObjectID = "8uu-zY-2Nt"; */
+"8uu-zY-2Nt.normalTitle" = "leer condiciones de uso";
+
+/* Class = "UINavigationItem"; title = "Login"; ObjectID = "9zM-sO-phb"; */
+"9zM-sO-phb.title" = "Login";
+
+/* Class = "UIButton"; normalTitle = "¿Has olvidado tu contraseña?"; ObjectID = "DEz-ek-ccz"; */
+"DEz-ek-ccz.normalTitle" = "¿Has olvidado tu contraseña?";
+
+/* Class = "UITextField"; placeholder = "email"; ObjectID = "EVU-Bi-r7g"; */
+"EVU-Bi-r7g.placeholder" = "email";
+
+/* Class = "UINavigationItem"; title = "Cláusulas legales"; ObjectID = "FmG-02-225"; */
+"FmG-02-225.title" = "Cláusulas legales";
+
+/* Class = "UITextField"; placeholder = "password"; ObjectID = "LBU-zz-8od"; */
+"LBU-zz-8od.placeholder" = "password";
+
+/* Class = "UILabel"; text = "Introduzca un email de contacto para recibir las instrucciones necesarias en la recuperación de su contraseña."; ObjectID = "NJk-j5-8g8"; */
+"NJk-j5-8g8.text" = "Introduzca un email de contacto para recibir las instrucciones necesarias en la recuperación de su contraseña.";
+
+/* Class = "UIButton"; normalTitle = "REGISTRARSE"; ObjectID = "OkT-kK-c6c"; */
+"OkT-kK-c6c.normalTitle" = "REGISTRARSE";
+
+/* Class = "UINavigationItem"; title = "Registro"; ObjectID = "Ufm-7z-Q9t"; */
+"Ufm-7z-Q9t.title" = "Registro";
+
+/* Class = "UILabel"; text = "AYUDA: Asegurese que introduce un email válido y al cual pueda acceder de manera inmediata para finalizar con el proceso de recuperación de contraseña."; ObjectID = "aFv-sp-ofk"; */
+"aFv-sp-ofk.text" = "AYUDA: Asegurese que introduce un email válido y al cual pueda acceder de manera inmediata para finalizar con el proceso de recuperación de contraseña.";
+
+/* Class = "UITextView"; text = "Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda."; ObjectID = "dDi-FB-DEU"; */
+"dDi-FB-DEU.text" = "Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.";
+
+/* Class = "UITextField"; placeholder = "password"; ObjectID = "kkL-AB-67U"; */
+"kkL-AB-67U.placeholder" = "password";
+
+/* Class = "UITextField"; placeholder = "repita password"; ObjectID = "lGU-4V-cFH"; */
+"lGU-4V-cFH.placeholder" = "repita password";
+
+/* Class = "UIBarButtonItem"; title = "Atrás"; ObjectID = "lQ5-RV-5I3"; */
+"lQ5-RV-5I3.title" = "Atrás";
+
+/* Class = "UINavigationItem"; title = "Recordatorio de contraseña"; ObjectID = "meH-2Q-8Hq"; */
+"meH-2Q-8Hq.title" = "Recordatorio de contraseña";
+
+/* Class = "UILabel"; text = "Aceptar las condiciones de uso"; ObjectID = "meR-Xo-h1s"; */
+"meR-Xo-h1s.text" = "Aceptar las condiciones de uso";
+
+/* Class = "UILabel"; text = "Registrate con tu dirección de correo electrónico"; ObjectID = "rvz-au-aqg"; */
+"rvz-au-aqg.text" = "Registrate con tu dirección de correo electrónico";
+
+/* Class = "UITextField"; placeholder = "email"; ObjectID = "t33-HF-AuA"; */
+"t33-HF-AuA.placeholder" = "email";
+
+/* Class = "UILabel"; text = "Email de contacto:"; ObjectID = "tqr-MY-VUl"; */
+"tqr-MY-VUl.text" = "Email de contacto:";
+
+/* Class = "UITextField"; placeholder = "Introduzca su email"; ObjectID = "uB4-8O-J6V"; */
+"uB4-8O-J6V.placeholder" = "Introduzca su email";
