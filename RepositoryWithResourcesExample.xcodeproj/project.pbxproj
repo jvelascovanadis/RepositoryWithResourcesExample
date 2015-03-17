@@ -24,6 +24,11 @@
 		F193F2C41AB8366E00ADCE27 /* TermsVC.m in Sources */ = {isa = PBXBuildFile; fileRef = F193F2BC1AB8366E00ADCE27 /* TermsVC.m */; };
 		F193F2C61AB8367A00ADCE27 /* Login.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F193F2C51AB8367A00ADCE27 /* Login.storyboard */; };
 		F193F2C91AB8390300ADCE27 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = F193F2CB1AB8390300ADCE27 /* Localizable.strings */; };
+		F193F2D21AB8468900ADCE27 /* checkbox_a@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F193F2CD1AB8468900ADCE27 /* checkbox_a@2x.png */; };
+		F193F2D31AB8468900ADCE27 /* checkbox_b@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F193F2CE1AB8468900ADCE27 /* checkbox_b@2x.png */; };
+		F193F2D41AB8468900ADCE27 /* conditions_view@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F193F2CF1AB8468900ADCE27 /* conditions_view@2x.png */; };
+		F193F2D51AB8468900ADCE27 /* email@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F193F2D01AB8468900ADCE27 /* email@2x.png */; };
+		F193F2D61AB8468900ADCE27 /* password@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F193F2D11AB8468900ADCE27 /* password@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +62,11 @@
 		F193F2BC1AB8366E00ADCE27 /* TermsVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TermsVC.m; path = classes/TermsVC.m; sourceTree = "<group>"; };
 		F193F2C51AB8367A00ADCE27 /* Login.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Login.storyboard; path = assets/Login.storyboard; sourceTree = "<group>"; };
 		F193F2CA1AB8390300ADCE27 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		F193F2CD1AB8468900ADCE27 /* checkbox_a@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "checkbox_a@2x.png"; path = "assets/checkbox_a@2x.png"; sourceTree = "<group>"; };
+		F193F2CE1AB8468900ADCE27 /* checkbox_b@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "checkbox_b@2x.png"; path = "assets/checkbox_b@2x.png"; sourceTree = "<group>"; };
+		F193F2CF1AB8468900ADCE27 /* conditions_view@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "conditions_view@2x.png"; path = "assets/conditions_view@2x.png"; sourceTree = "<group>"; };
+		F193F2D01AB8468900ADCE27 /* email@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "email@2x.png"; path = "assets/email@2x.png"; sourceTree = "<group>"; };
+		F193F2D11AB8468900ADCE27 /* password@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "password@2x.png"; path = "assets/password@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -135,6 +145,11 @@
 		F15B6A9B1AB75DEB00A0BD61 /* assets */ = {
 			isa = PBXGroup;
 			children = (
+				F193F2CD1AB8468900ADCE27 /* checkbox_a@2x.png */,
+				F193F2CE1AB8468900ADCE27 /* checkbox_b@2x.png */,
+				F193F2CF1AB8468900ADCE27 /* conditions_view@2x.png */,
+				F193F2D01AB8468900ADCE27 /* email@2x.png */,
+				F193F2D11AB8468900ADCE27 /* password@2x.png */,
 				F193F2C51AB8367A00ADCE27 /* Login.storyboard */,
 				F15B6A9C1AB75E2900A0BD61 /* Test.storyboard */,
 				F15B6A9E1AB75E4100A0BD61 /* TestView.xib */,
@@ -255,9 +270,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F193F2D31AB8468900ADCE27 /* checkbox_b@2x.png in Resources */,
+				F193F2D51AB8468900ADCE27 /* email@2x.png in Resources */,
+				F193F2D21AB8468900ADCE27 /* checkbox_a@2x.png in Resources */,
 				F15B6A9F1AB75E4100A0BD61 /* TestView.xib in Resources */,
 				F193F2C91AB8390300ADCE27 /* Localizable.strings in Resources */,
 				F15B6A9D1AB75E2900A0BD61 /* Test.storyboard in Resources */,
+				F193F2D61AB8468900ADCE27 /* password@2x.png in Resources */,
+				F193F2D41AB8468900ADCE27 /* conditions_view@2x.png in Resources */,
 				F193F2C61AB8367A00ADCE27 /* Login.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
