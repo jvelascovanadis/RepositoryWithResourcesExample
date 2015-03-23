@@ -3,7 +3,7 @@ Pod::Spec.new do |s|
 s.platform     = :ios, "7.0"
 s.name = 'RepositoryWithResourcesExample'
 
-s.version = '0.0.12'
+s.version = '0.0.13'
 
 s.summary = 'Componente de ejemplo de resources'
 
@@ -30,7 +30,7 @@ s.source = {
 s.source_files = 'RepositoryWithResourcesExample/classes/*.{h,m}'
 
 s.resource_bundles = {
-'Vanadis' => ['RepositoryWithResourcesExample/assets/*']
+'Vanadis' => ['RepositoryWithResourcesExample/assets/*.*']
 }
 
 s.frameworks = 'UIKit'
