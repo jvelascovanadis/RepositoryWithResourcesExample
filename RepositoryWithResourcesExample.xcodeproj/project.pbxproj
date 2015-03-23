@@ -13,6 +13,8 @@
 		F15B6A9F1AB75E4100A0BD61 /* TestView.xib in Resources */ = {isa = PBXBuildFile; fileRef = F15B6A9E1AB75E4100A0BD61 /* TestView.xib */; };
 		F15B6AA31AB75ED100A0BD61 /* TestClass.h in Headers */ = {isa = PBXBuildFile; fileRef = F15B6AA11AB75ED100A0BD61 /* TestClass.h */; };
 		F15B6AA41AB75ED100A0BD61 /* TestClass.m in Sources */ = {isa = PBXBuildFile; fileRef = F15B6AA21AB75ED100A0BD61 /* TestClass.m */; };
+		F17BB7921AC03A97009622AB /* VanadisLoginComponent.h in Headers */ = {isa = PBXBuildFile; fileRef = F17BB7901AC03A97009622AB /* VanadisLoginComponent.h */; };
+		F17BB7931AC03A97009622AB /* VanadisLoginComponent.m in Sources */ = {isa = PBXBuildFile; fileRef = F17BB7911AC03A97009622AB /* VanadisLoginComponent.m */; };
 		F193F2BD1AB8366E00ADCE27 /* LoginVC.h in Headers */ = {isa = PBXBuildFile; fileRef = F193F2B51AB8366E00ADCE27 /* LoginVC.h */; };
 		F193F2BE1AB8366E00ADCE27 /* LoginVC.m in Sources */ = {isa = PBXBuildFile; fileRef = F193F2B61AB8366E00ADCE27 /* LoginVC.m */; };
 		F193F2BF1AB8366E00ADCE27 /* RegisterVC.h in Headers */ = {isa = PBXBuildFile; fileRef = F193F2B71AB8366E00ADCE27 /* RegisterVC.h */; };
@@ -51,6 +53,8 @@
 		F15B6A9E1AB75E4100A0BD61 /* TestView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = TestView.xib; path = assets/TestView.xib; sourceTree = "<group>"; };
 		F15B6AA11AB75ED100A0BD61 /* TestClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TestClass.h; path = classes/TestClass.h; sourceTree = "<group>"; };
 		F15B6AA21AB75ED100A0BD61 /* TestClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TestClass.m; path = classes/TestClass.m; sourceTree = "<group>"; };
+		F17BB7901AC03A97009622AB /* VanadisLoginComponent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = VanadisLoginComponent.h; path = classes/VanadisLoginComponent.h; sourceTree = "<group>"; };
+		F17BB7911AC03A97009622AB /* VanadisLoginComponent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = VanadisLoginComponent.m; path = classes/VanadisLoginComponent.m; sourceTree = "<group>"; };
 		F193F2B51AB8366E00ADCE27 /* LoginVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LoginVC.h; path = classes/LoginVC.h; sourceTree = "<group>"; };
 		F193F2B61AB8366E00ADCE27 /* LoginVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LoginVC.m; path = classes/LoginVC.m; sourceTree = "<group>"; };
 		F193F2B71AB8366E00ADCE27 /* RegisterVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RegisterVC.h; path = classes/RegisterVC.h; sourceTree = "<group>"; };
@@ -174,6 +178,8 @@
 				F193F2BC1AB8366E00ADCE27 /* TermsVC.m */,
 				F15B6AA11AB75ED100A0BD61 /* TestClass.h */,
 				F15B6AA21AB75ED100A0BD61 /* TestClass.m */,
+				F17BB7901AC03A97009622AB /* VanadisLoginComponent.h */,
+				F17BB7911AC03A97009622AB /* VanadisLoginComponent.m */,
 			);
 			name = classes;
 			sourceTree = "<group>";
@@ -190,6 +196,7 @@
 				F15B6AA31AB75ED100A0BD61 /* TestClass.h in Headers */,
 				F193F2C31AB8366E00ADCE27 /* TermsVC.h in Headers */,
 				F193F2BD1AB8366E00ADCE27 /* LoginVC.h in Headers */,
+				F17BB7921AC03A97009622AB /* VanadisLoginComponent.h in Headers */,
 				F193F2C11AB8366E00ADCE27 /* RememberPasswordVC.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -303,6 +310,7 @@
 			files = (
 				F193F2C01AB8366E00ADCE27 /* RegisterVC.m in Sources */,
 				F193F2BE1AB8366E00ADCE27 /* LoginVC.m in Sources */,
+				F17BB7931AC03A97009622AB /* VanadisLoginComponent.m in Sources */,
 				F193F2C41AB8366E00ADCE27 /* TermsVC.m in Sources */,
 				F193F2C21AB8366E00ADCE27 /* RememberPasswordVC.m in Sources */,
 				F15B6AA41AB75ED100A0BD61 /* TestClass.m in Sources */,
