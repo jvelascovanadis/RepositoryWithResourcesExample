@@ -31,9 +31,9 @@
 @property (strong, nonatomic) IBOutlet UITextField *TF_mail;
 @property (strong, nonatomic) IBOutlet UIActivityIndicatorView *activityIndicator;
 
-@property (weak, nonatomic) IBOutlet UIView *emailView;
-@property (weak, nonatomic) IBOutlet UIView *passwordView;
-@property (weak, nonatomic) IBOutlet UIButton *accessBtn;
+@property (strong, nonatomic) IBOutlet UIView *emailView;
+@property (strong, nonatomic) IBOutlet UIView *passwordView;
+@property (strong, nonatomic) IBOutlet UIButton *accessBtn;
 
 
 - (IBAction)goLogin:(id)sender;
