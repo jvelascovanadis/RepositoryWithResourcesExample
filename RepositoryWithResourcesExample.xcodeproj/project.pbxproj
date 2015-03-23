@@ -15,6 +15,7 @@
 		F15B6AA41AB75ED100A0BD61 /* TestClass.m in Sources */ = {isa = PBXBuildFile; fileRef = F15B6AA21AB75ED100A0BD61 /* TestClass.m */; };
 		F17BB7921AC03A97009622AB /* VanadisLoginComponent.h in Headers */ = {isa = PBXBuildFile; fileRef = F17BB7901AC03A97009622AB /* VanadisLoginComponent.h */; };
 		F17BB7931AC03A97009622AB /* VanadisLoginComponent.m in Sources */ = {isa = PBXBuildFile; fileRef = F17BB7911AC03A97009622AB /* VanadisLoginComponent.m */; };
+		F17BB7D11AC0888A009622AB /* Login.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F17BB7D01AC0888A009622AB /* Login.storyboard */; };
 		F193F2BD1AB8366E00ADCE27 /* LoginVC.h in Headers */ = {isa = PBXBuildFile; fileRef = F193F2B51AB8366E00ADCE27 /* LoginVC.h */; };
 		F193F2BE1AB8366E00ADCE27 /* LoginVC.m in Sources */ = {isa = PBXBuildFile; fileRef = F193F2B61AB8366E00ADCE27 /* LoginVC.m */; };
 		F193F2BF1AB8366E00ADCE27 /* RegisterVC.h in Headers */ = {isa = PBXBuildFile; fileRef = F193F2B71AB8366E00ADCE27 /* RegisterVC.h */; };
@@ -29,7 +30,6 @@
 		F193F2D41AB8468900ADCE27 /* conditions_view@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F193F2CF1AB8468900ADCE27 /* conditions_view@2x.png */; };
 		F193F2D51AB8468900ADCE27 /* email@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F193F2D01AB8468900ADCE27 /* email@2x.png */; };
 		F193F2D61AB8468900ADCE27 /* password@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F193F2D11AB8468900ADCE27 /* password@2x.png */; };
-		F193F2EC1AB8884E00ADCE27 /* Login.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F193F2EE1AB8884E00ADCE27 /* Login.storyboard */; };
 		F193F2F51AB88AF300ADCE27 /* RepositoryWithResourcesExample.podspec in Resources */ = {isa = PBXBuildFile; fileRef = F193F2F41AB88AF300ADCE27 /* RepositoryWithResourcesExample.podspec */; };
 /* End PBXBuildFile section */
 
@@ -55,6 +55,7 @@
 		F15B6AA21AB75ED100A0BD61 /* TestClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TestClass.m; path = classes/TestClass.m; sourceTree = "<group>"; };
 		F17BB7901AC03A97009622AB /* VanadisLoginComponent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = VanadisLoginComponent.h; path = classes/VanadisLoginComponent.h; sourceTree = "<group>"; };
 		F17BB7911AC03A97009622AB /* VanadisLoginComponent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = VanadisLoginComponent.m; path = classes/VanadisLoginComponent.m; sourceTree = "<group>"; };
+		F17BB7D01AC0888A009622AB /* Login.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Login.storyboard; path = assets/Login.storyboard; sourceTree = "<group>"; };
 		F193F2B51AB8366E00ADCE27 /* LoginVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LoginVC.h; path = classes/LoginVC.h; sourceTree = "<group>"; };
 		F193F2B61AB8366E00ADCE27 /* LoginVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LoginVC.m; path = classes/LoginVC.m; sourceTree = "<group>"; };
 		F193F2B71AB8366E00ADCE27 /* RegisterVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RegisterVC.h; path = classes/RegisterVC.h; sourceTree = "<group>"; };
@@ -70,7 +71,6 @@
 		F193F2D01AB8468900ADCE27 /* email@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "email@2x.png"; path = "assets/email@2x.png"; sourceTree = "<group>"; };
 		F193F2D11AB8468900ADCE27 /* password@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "password@2x.png"; path = "assets/password@2x.png"; sourceTree = "<group>"; };
 		F193F2D71AB8478500ADCE27 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/Localizable.strings; sourceTree = "<group>"; };
-		F193F2ED1AB8884E00ADCE27 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Login.storyboard; sourceTree = "<group>"; };
 		F193F2F41AB88AF300ADCE27 /* RepositoryWithResourcesExample.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = RepositoryWithResourcesExample.podspec; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -151,7 +151,7 @@
 		F15B6A9B1AB75DEB00A0BD61 /* assets */ = {
 			isa = PBXGroup;
 			children = (
-				F193F2EE1AB8884E00ADCE27 /* Login.storyboard */,
+				F17BB7D01AC0888A009622AB /* Login.storyboard */,
 				F193F2CD1AB8468900ADCE27 /* checkbox_a@2x.png */,
 				F193F2CE1AB8468900ADCE27 /* checkbox_b@2x.png */,
 				F193F2CF1AB8468900ADCE27 /* conditions_view@2x.png */,
@@ -288,7 +288,7 @@
 				F193F2F51AB88AF300ADCE27 /* RepositoryWithResourcesExample.podspec in Resources */,
 				F193F2D61AB8468900ADCE27 /* password@2x.png in Resources */,
 				F193F2D41AB8468900ADCE27 /* conditions_view@2x.png in Resources */,
-				F193F2EC1AB8884E00ADCE27 /* Login.storyboard in Resources */,
+				F17BB7D11AC0888A009622AB /* Login.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -341,15 +341,6 @@
 				F193F2D71AB8478500ADCE27 /* es */,
 			);
 			name = Localizable.strings;
-			path = assets;
-			sourceTree = "<group>";
-		};
-		F193F2EE1AB8884E00ADCE27 /* Login.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				F193F2ED1AB8884E00ADCE27 /* Base */,
-			);
-			name = Login.storyboard;
 			path = assets;
 			sourceTree = "<group>";
 		};
