@@ -28,28 +28,27 @@
     self = [super init];
     if(self) {
         
-        // Get the storyboard named secondStoryBoard from the main bundle:
-        UIStoryboard *secondStoryBoard = [UIStoryboard storyboardWithName:@"Login" bundle:[[self class] frameworkBundle]];
-        
-        // Load the initial view controller from the storyboard.
-        // Set this by selecting 'Is Initial View Controller' on the appropriate view controller in the storyboard.
-        //  UIViewController *theInitialViewController = [secondStoryBoard instantiateInitialViewController];
-        UINavigationController *theInitialViewController = [secondStoryBoard instantiateInitialViewController];
-        
-        NSArray * ar = theInitialViewController.viewControllers;
-        
-        for (UIViewController * vc in ar)
-        {
-            if ([vc isKindOfClass:[LoginVC class]])
-            {
-                ((LoginVC *)vc).delegateController = (NSObject<VanadisLoginDelegate>*)self;
-            }
-        }
+//        // Get the storyboard named secondStoryBoard from the main bundle:
+//        UIStoryboard *secondStoryBoard = [UIStoryboard storyboardWithName:@"Login" bundle:[[self class] frameworkBundle]];
+//        
+//        // Load the initial view controller from the storyboard.
+//        // Set this by selecting 'Is Initial View Controller' on the appropriate view controller in the storyboard.
+//        //  UIViewController *theInitialViewController = [secondStoryBoard instantiateInitialViewController];
+//        UINavigationController *theInitialViewController = [secondStoryBoard instantiateInitialViewController];
+//        
+//        NSArray * ar = theInitialViewController.viewControllers;
+//        
+//        for (UIViewController * vc in ar)
+//        {
+//            if ([vc isKindOfClass:[LoginVC class]])
+//            {
+//                ((LoginVC *)vc).delegateController = (NSObject<VanadisLoginDelegate>*)self;
+//            }
+//        }
         
         
     }
     return self;
 }
-
 
 @end
