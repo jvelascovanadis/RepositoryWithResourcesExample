@@ -23,7 +23,7 @@
 
 @implementation LoginVC
 
-@synthesize TF_mail,TF_password,activityIndicator,emailView,passwordView,accessBtn;
+@synthesize TF_mail,TF_password,activityIndicator,emailView,passwordView,accessBtn,delegateController;
 
 + (NSBundle *)frameworkBundle {
     
@@ -73,6 +73,14 @@
                                              selector:@selector(keyboardWillDisappear)
                                                  name:UIKeyboardWillHideNotification
                                                object:nil];
+    
+    if ([self.delegateController respondsToSelector:@selector(returnColorForVanadisLoginComponent)])
+    {
+        NSLog(@"SIIIIIII --- 2");
+        self.emailView.backgroundColor = [self.delegateController returnColorForVanadisLoginComponent];
+    }
+    
+
     
    // [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(appWasResumed) name:UIApplicationWillEnterForegroundNotification object:nil];
     /*User *userInfo = (User *)[VanadisDataFileManager getDataFromDocumentsFolder:kUserCredentialsSaved];

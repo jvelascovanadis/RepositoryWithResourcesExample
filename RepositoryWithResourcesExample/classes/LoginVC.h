@@ -7,6 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "VanadisLoginComponent.h"
 //#import <VanadisFrameworkSlideMenu/SlideMenuControl.h>
 //#import "SlideMenuController.h"
 //#import "TutorialVC.h"
@@ -22,6 +23,8 @@
     NSString *email;
     NSString *password;
 }
+
+@property (nonatomic,strong) NSObject<VanadisLoginDelegate>* delegateController;
 
 //@property (strong, nonatomic) SlideMenuController *menu;
 @property (strong, nonatomic) IBOutlet UITextField *TF_password;
