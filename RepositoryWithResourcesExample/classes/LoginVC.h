@@ -34,11 +34,14 @@
 @property (strong, nonatomic) IBOutlet UIView *emailView;
 @property (strong, nonatomic) IBOutlet UIView *passwordView;
 @property (strong, nonatomic) IBOutlet UIButton *accessBtn;
+@property (strong, nonatomic) IBOutlet UIButton *registerBtn;
+@property (strong, nonatomic) IBOutlet UIButton *forgetBtn;
+@property (strong, nonatomic) IBOutlet UIImageView *logoView;
 
 
 - (IBAction)goLogin:(id)sender;
 - (void)login;
--(void) saveLoginInfoToDisk;
+//-(void) saveLoginInfoToDisk;
 - (IBAction)goRememberPassword:(id)sender;
 
 - (BOOL) validateEmail:(NSString *)checkString;

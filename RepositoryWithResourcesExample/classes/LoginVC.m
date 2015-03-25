@@ -23,7 +23,7 @@
 
 @implementation LoginVC
 
-@synthesize TF_mail,TF_password,activityIndicator,emailView,passwordView,accessBtn,delegateController;
+@synthesize TF_mail,TF_password,activityIndicator,emailView,passwordView,accessBtn,delegateController,registerBtn,forgetBtn,logoView;
 
 + (NSBundle *)frameworkBundle {
     
@@ -73,6 +73,9 @@
     if ([self.delegateController respondsToSelector:@selector(returnColorForVanadisLoginComponent)])
     {
         self.emailView.backgroundColor = [self.delegateController returnColorForVanadisLoginComponent];
+         self.passwordView.backgroundColor = [self.delegateController returnColorForVanadisLoginComponent];
+        self.registerBtn.backgroundColor = [self.delegateController returnColorForVanadisLoginComponent];
+        self.forgetBtn.backgroundColor = [self.delegateController returnColorForVanadisLoginComponent];
         
         [[UINavigationBar appearance] setBarStyle:UIBarStyleBlackOpaque];
         [[UINavigationBar appearance] setBarTintColor:[self.delegateController returnColorForVanadisLoginComponent]];
