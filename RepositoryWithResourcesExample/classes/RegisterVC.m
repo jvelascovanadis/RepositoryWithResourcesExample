@@ -17,6 +17,7 @@
 
 @implementation RegisterVC
 @synthesize checkButton,TF_mail,TF_password,TF_repeat_password,activityIndicator;
+@synthesize checkmarkBtn,readTermsOfUseBtn,registerBtn,registerInstructionsLabel,reTypePasswordView,passwordView,emailView,;
 
 - (void)viewDidLoad {
     [super viewDidLoad];
@@ -40,6 +41,22 @@
                                                object:nil];
     
       [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(appWasResumed) name:UIApplicationWillEnterForegroundNotification object:nil];
+    
+    if ([self.delegateController respondsToSelector:@selector(returnColorForVanadisLoginComponent)])
+    {
+        self.emailView.backgroundColor = [self.delegateController returnColorForVanadisLoginComponent];
+        self.passwordView.backgroundColor = [self.delegateController returnColorForVanadisLoginComponent];
+        self.reTypePasswordView.backgroundColor = [self.delegateController returnColorForVanadisLoginComponent];
+        
+        self.registerBtn.backgroundColor = [self.delegateController returnColorForVanadisLoginComponent];
+        [self.readTermsOfUseBtn setTitleColor:[self.delegateController returnColorForVanadisLoginComponent] forState:UIControlStateNormal];
+
+    }
+    
+    if ([self.delegateController respondsToSelector:@selector(returnLogoForVanadisLoginComponent)])
+    {
+        [self.logoView setImage:[self.delegateController returnLogoForVanadisLoginComponent]];
+    }
 }
 
 - (void)didReceiveMemoryWarning {

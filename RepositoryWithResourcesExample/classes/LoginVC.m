@@ -73,9 +73,10 @@
     if ([self.delegateController respondsToSelector:@selector(returnColorForVanadisLoginComponent)])
     {
         self.emailView.backgroundColor = [self.delegateController returnColorForVanadisLoginComponent];
-         self.passwordView.backgroundColor = [self.delegateController returnColorForVanadisLoginComponent];
+        self.passwordView.backgroundColor = [self.delegateController returnColorForVanadisLoginComponent];
         self.registerBtn.backgroundColor = [self.delegateController returnColorForVanadisLoginComponent];
-        self.forgetBtn.backgroundColor = [self.delegateController returnColorForVanadisLoginComponent];
+        self.accessBtn.backgroundColor = [self.delegateController returnColorForVanadisLoginComponent];
+        [self.forgetBtn setTitleColor:[self.delegateController returnColorForVanadisLoginComponent] forState:UIControlStateNormal];
         
         [[UINavigationBar appearance] setBarStyle:UIBarStyleBlackOpaque];
         [[UINavigationBar appearance] setBarTintColor:[self.delegateController returnColorForVanadisLoginComponent]];
@@ -88,6 +89,10 @@
 
     }
     
+    if ([self.delegateController respondsToSelector:@selector(returnLogoForVanadisLoginComponent)])
+    {
+        [self.logoView setImage:[self.delegateController returnLogoForVanadisLoginComponent]];
+    }
 
     
    // [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(appWasResumed) name:UIApplicationWillEnterForegroundNotification object:nil];
