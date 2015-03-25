@@ -17,7 +17,7 @@
 
 @implementation RegisterVC
 @synthesize checkButton,TF_mail,TF_password,TF_repeat_password,activityIndicator;
-@synthesize checkmarkBtn,readTermsOfUseBtn,registerBtn,registerInstructionsLabel,reTypePasswordView,passwordView,emailView,;
+@synthesize checkmarkBtn,readTermsOfUseBtn,registerBtn,registerInstructionsLabel,reTypePasswordView,passwordView,emailView;
 
 - (void)viewDidLoad {
     [super viewDidLoad];
