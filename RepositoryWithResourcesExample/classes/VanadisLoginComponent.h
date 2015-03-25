@@ -35,6 +35,6 @@
 
 @interface VanadisLoginComponent : NSObject
 
-- (id)initCustom;
+- (UIViewController *)getRootViewController;
 
 @end
