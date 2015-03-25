@@ -567,6 +567,15 @@
                         <outlet property="TF_repeat_password" destination="lGU-4V-cFH" id="Sf4-Zc-Ggr"/>
                         <outlet property="activityIndicator" destination="0fo-7T-QLF" id="2YO-k0-6zA"/>
                         <outlet property="checkButton" destination="QPP-rt-qs9" id="f9q-3S-z4h"/>
+                        <outlet property="checkmarkBtn" destination="QPP-rt-qs9" id="lzr-VB-6e9"/>
+                        <outlet property="emailView" destination="aXr-YS-2mg" id="9wd-6q-vyN"/>
+                        <outlet property="logoView" destination="FdO-70-GA7" id="95X-iK-bdZ"/>
+                        <outlet property="passwordView" destination="Iyf-ZT-GBf" id="v7t-lv-oXv"/>
+                        <outlet property="reTypePasswordView" destination="wbK-YS-k1A" id="mhw-ww-Qcl"/>
+                        <outlet property="readTermsOfUseBtn" destination="8uu-zY-2Nt" id="rls-Kz-PKk"/>
+                        <outlet property="registerBtn" destination="OkT-kK-c6c" id="4a1-I9-LX6"/>
+                        <outlet property="registerInstructionsLabel" destination="rvz-au-aqg" id="1kt-Cq-gvo"/>
+                        <outlet property="termsOfUseConfirmLabel" destination="meR-Xo-h1s" id="eaj-Qx-XHA"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="4NQ-DX-Pdd" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -760,7 +769,10 @@
                     </view>
                     <navigationItem key="navigationItem" title="Recordatorio de contraseña" id="meH-2Q-8Hq"/>
                     <connections>
-                        <outlet property="emailTextField" destination="uB4-8O-J6V" id="d5C-e2-B1k"/>
+                        <outlet property="accesoryViewDown" destination="zuU-bH-VFW" id="pAL-Xz-nrb"/>
+                        <outlet property="accesoryViewUp" destination="txD-SM-lKo" id="aHK-3R-sU6"/>
+                        <outlet property="contactEmailLabel" destination="tqr-MY-VUl" id="TxJ-Wn-CFI"/>
+                        <outlet property="emailTextField" destination="uB4-8O-J6V" id="5FF-Tw-KDX"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="vlD-85-6yG" userLabel="First Responder" sceneMemberID="firstResponder"/>
