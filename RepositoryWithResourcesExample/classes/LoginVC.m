@@ -53,10 +53,6 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view.
     
-    [[NSNotificationCenter defaultCenter] addObserver:self
-                                             selector:@selector(receiveTestNotification:)
-                                                 name:@"TestNotification"
-                                               object:nil];
     
     //   self.menu =[[SlideMenuController alloc]initWithType:VanadisSlideMenuType_LAUNCH_MANUALLY];
     
@@ -76,8 +72,17 @@
     
     if ([self.delegateController respondsToSelector:@selector(returnColorForVanadisLoginComponent)])
     {
-        NSLog(@"SIIIIIII --- 2");
         self.emailView.backgroundColor = [self.delegateController returnColorForVanadisLoginComponent];
+        
+        [[UINavigationBar appearance] setBarStyle:UIBarStyleBlackOpaque];
+        [[UINavigationBar appearance] setBarTintColor:[self.delegateController returnColorForVanadisLoginComponent]];
+        
+        
+        [[UINavigationBar appearance] setTintColor:[UIColor whiteColor]]; // this will change the back button tint
+        
+        // Also View-Controller-based status bar key needed on info.plist of the project
+        [[UIApplication sharedApplication] setStatusBarStyle:UIStatusBarStyleLightContent];
+
     }
     
 
@@ -373,21 +378,6 @@
    // [self.menu shouldDisplayInitiallyLateralMenu];
 }
 
-- (void) receiveTestNotification:(NSNotification *) notification
-{
-    // [notification name] should always be @"TestNotification"
-    // unless you use this method for observation of other notifications
-    // as well.
-    
-    if ([[notification name] isEqualToString:@"TestNotification"])
-    
-        NSLog (@"Successfully received the test notification!");
-    
-         NSDictionary* userInfo = notification.userInfo;
-         UIColor* color = (UIColor*)userInfo[@"color"];
-    
-        self.emailView.backgroundColor = color;
-}
 
 #pragma mark - Navigation
 
