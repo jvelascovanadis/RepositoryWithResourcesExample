@@ -27,6 +27,17 @@
         if ([vc isKindOfClass:[LoginVC class]])
         {
             ((LoginVC *)vc).delegateController = (NSObject<VanadisLoginDelegate>*)self;
+            
+            [[UINavigationBar appearance] setBarStyle:UIBarStyleBlackOpaque];
+            [[UINavigationBar appearance] setBarTintColor:[((LoginVC *)vc).delegateController returnColorForVanadisLoginComponent]];
+            
+            
+            [[UINavigationBar appearance] setTintColor:[UIColor whiteColor]]; // this will change the back button tint
+            
+            // Also View-Controller-based status bar key needed on info.plist of the project
+            [[UIApplication sharedApplication] setStatusBarStyle:UIStatusBarStyleLightContent];
+            
+            
         }
     }
     
