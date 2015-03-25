@@ -29,7 +29,7 @@
     
     if ([self.delegateController respondsToSelector:@selector(returnColorForVanadisLoginComponent)])
     {
-        self.accesoryViewDown.backgroundColor = [self.delegateController returnColorForVanadisLoginComponent];
+        self.accesoryViewUp.backgroundColor = [self.delegateController returnColorForVanadisLoginComponent];
         self.accesoryViewDown.backgroundColor = [self.delegateController returnColorForVanadisLoginComponent];
      
         self.contactEmailLabel.textColor =[self.delegateController returnColorForVanadisLoginComponent];
