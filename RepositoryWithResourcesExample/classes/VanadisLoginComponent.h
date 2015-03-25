@@ -22,6 +22,13 @@
 
 @optional
 
+/*
+ * Returns the IndexPath for the initialize state
+ *
+ * @returns NSIndexPath, the initial indexPath desired
+ */
+-(UIImage*) returnLogoForVanadisLoginComponent;
+
 /**
  * Used when the Menu is sliding so we can,for example, refresh with a Notification request.
  *
