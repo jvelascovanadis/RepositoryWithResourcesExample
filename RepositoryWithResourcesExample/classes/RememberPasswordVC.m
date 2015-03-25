@@ -17,6 +17,8 @@
 
 @synthesize emailTextField;
 
+@synthesize accesoryViewDown,accesoryViewUp,contactEmailLabel;
+
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
@@ -24,6 +26,14 @@
     [self createNavBarButtons];
     
     [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(appWasResumed) name:UIApplicationWillEnterForegroundNotification object:nil];
+    
+    if ([self.delegateController respondsToSelector:@selector(returnColorForVanadisLoginComponent)])
+    {
+        self.accesoryViewDown.backgroundColor = [self.delegateController returnColorForVanadisLoginComponent];
+        self.accesoryViewDown.backgroundColor = [self.delegateController returnColorForVanadisLoginComponent];
+     
+        self.contactEmailLabel.textColor =[self.delegateController returnColorForVanadisLoginComponent];
+    }
 
 }
 
@@ -37,8 +47,9 @@
     //Ricght button
     UIBarButtonItem *sendButton = [[UIBarButtonItem alloc] initWithTitle:NSLocalizedString(@"send_btn", nil)
                     style:UIBarButtonItemStyleBordered
-                                                                  target:self
-                                                                  action:@selector(sendRememberPassword)];
+                    target:self
+                    action:@selector(sendRememberPassword)];
+    
     self.navigationItem.rightBarButtonItem = sendButton;
     [self.navigationItem.rightBarButtonItem setEnabled:NO];
     

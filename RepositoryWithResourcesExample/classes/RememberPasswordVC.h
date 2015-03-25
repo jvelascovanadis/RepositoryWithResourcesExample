@@ -7,8 +7,15 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "VanadisLoginComponent.h"
 
 @interface RememberPasswordVC : UIViewController<UITextFieldDelegate>
+
+@property (nonatomic,strong) NSObject<VanadisLoginDelegate>* delegateController;
+
 @property (weak, nonatomic) IBOutlet UITextField *emailTextField;
+@property (weak, nonatomic) IBOutlet UIView *accesoryViewUp;
+@property (weak, nonatomic) IBOutlet UIView *accesoryViewDown;
+@property (weak, nonatomic) IBOutlet UILabel *contactEmailLabel;
 
 @end
