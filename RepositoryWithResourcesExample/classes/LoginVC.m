@@ -387,8 +387,16 @@
     
   if ([segue.identifier isEqualToString:@"goRememberPassword"])
   {
-      ((RememberPasswordVC *)segue.destinationViewController).delegateController = self.delegateController;
-  }else
+      NSArray * ar = ((UINavigationController *)segue.destinationViewController).viewControllers;
+      
+      for (UIViewController * vc in ar)
+      {
+          if ([vc isKindOfClass:[RememberPasswordVC class]])
+              ((RememberPasswordVC *)vc).delegateController = self.delegateController;
+              
+      }
+  }
+    else
   {
       //Register
       ((RegisterVC *)segue.destinationViewController).delegateController = self.delegateController;
