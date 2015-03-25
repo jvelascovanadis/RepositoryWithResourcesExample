@@ -225,8 +225,13 @@
                     <connections>
                         <outlet property="TF_mail" destination="EVU-Bi-r7g" id="v0W-Z9-3Ke"/>
                         <outlet property="TF_password" destination="kkL-AB-67U" id="bsM-aP-H5R"/>
+                        <outlet property="accessBtn" destination="7U2-lS-EZc" id="jAQ-6f-ijv"/>
                         <outlet property="activityIndicator" destination="ETu-cS-hIB" id="ckh-6J-qy7"/>
-                        <outlet property="emailView" destination="ifN-FV-Tuy" id="la1-P5-IIn"/>
+                        <outlet property="emailView" destination="ifN-FV-Tuy" id="K1F-wQ-2Ld"/>
+                        <outlet property="forgetBtn" destination="DEz-ek-ccz" id="vll-Lb-tHB"/>
+                        <outlet property="logoView" destination="3Zg-J6-37l" id="zk5-hL-hgO"/>
+                        <outlet property="passwordView" destination="bKU-Je-K77" id="sYX-cN-bKs"/>
+                        <outlet property="registerBtn" destination="67L-Vf-tim" id="67B-xA-qVd"/>
                         <segue destination="AYX-y0-dtL" kind="modal" identifier="goRememberPassword" id="OUD-aj-ZQT"/>
                     </connections>
                 </viewController>
