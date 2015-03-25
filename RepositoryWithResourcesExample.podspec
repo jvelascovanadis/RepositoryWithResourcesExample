@@ -3,7 +3,7 @@ Pod::Spec.new do |s|
 s.platform     = :ios, "7.0"
 s.name = 'RepositoryWithResourcesExample'
 
-s.version = '0.0.17'
+s.version = '0.0.18'
 
 s.summary = 'Componente de ejemplo de resources'
 
