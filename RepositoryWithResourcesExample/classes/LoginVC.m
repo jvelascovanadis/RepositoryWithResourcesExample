@@ -7,7 +7,8 @@
 //
 
 #import "LoginVC.h"
-//#import "User.h"
+#import "RegisterVC.h"
+#import "RememberPasswordVC.h"
 
 #define UNAUTHORIZED_DESCRIPTION @"Request failed: unauthorized (401)"
 #define UNAUTHORIZED_DESCRIPTION_ES @"Request failed: sin autorización (401)"
@@ -77,16 +78,6 @@
         self.registerBtn.backgroundColor = [self.delegateController returnColorForVanadisLoginComponent];
         self.accessBtn.backgroundColor = [self.delegateController returnColorForVanadisLoginComponent];
         [self.forgetBtn setTitleColor:[self.delegateController returnColorForVanadisLoginComponent] forState:UIControlStateNormal];
-        
-        [[UINavigationBar appearance] setBarStyle:UIBarStyleBlackOpaque];
-        [[UINavigationBar appearance] setBarTintColor:[self.delegateController returnColorForVanadisLoginComponent]];
-        
-        
-        [[UINavigationBar appearance] setTintColor:[UIColor whiteColor]]; // this will change the back button tint
-        
-        // Also View-Controller-based status bar key needed on info.plist of the project
-        [[UIApplication sharedApplication] setStatusBarStyle:UIStatusBarStyleLightContent];
-
     }
     
     if ([self.delegateController respondsToSelector:@selector(returnLogoForVanadisLoginComponent)])
@@ -392,7 +383,17 @@
 // In a storyboard-based application, you will often want to do a little preparation before navigation
 - (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
 {
-  [self.navigationController setNavigationBarHidden:FALSE];
+ // [self.navigationController setNavigationBarHidden:FALSE];
+    
+  if ([segue.identifier isEqualToString:@"goRememberPassword"])
+  {
+      ((RememberPasswordVC *)segue.destinationViewController).delegateController = self.delegateController;
+  }else
+  {
+      //Register
+      ((RegisterVC *)segue.destinationViewController).delegateController = self.delegateController;
+
+  }
 }
 
 @end
